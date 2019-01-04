@@ -2,9 +2,15 @@
 
 ## Abstract
 
-Using deep learning to classify burn injuries.
+Using deep learning to classify and help treat burn injuries.
 
 ## Introduction
+
+Attention: I started this work as I thought this would be a great idea and a good application of deep learning in a health setting. However, it turned out that the availability of (labelled) data is a major issue, as it is for a lot of ML projects. I did not succeed in getting access to enough data so that I stopped working on it. Based on the results, I'm pretty sure this should work, but you can't really tell unless you experiement with enough real world data.
+
+If you are interested in continuing this work and have access to data, I'd be happy to exchange ideas.
+
+One further idea was to not only to classify the burn wounds, but also to determine the percentage of the body that is burnt with a specific grade. Based on recent work around dense pose estimation (7) and 3D body part reconstruction, this should also be valid based on existing work.
 
 ## Related Work
 
@@ -73,4 +79,5 @@ Should be smartphone based
 4. Despo, O., Yeung, S., Jopling, J., Pridgen, B., Sheckter, C., Silberstein, S., … Milstein, A. (n.d.). BURNED : Towards Efficient and Accurate Burn Prognosis Using Deep Learning.
 5. ImageNet category translation into human readable format: https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a
 6. Mask R-CNN: https://arxiv.org/abs/1703.06870
+7. Dense Pose Estimation: http://densepose.org
 
